@@ -1,0 +1,13 @@
+.container {
+  padding: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.todo {
+  width: 40%;
+}
+.dashboard {
+  width: 40%;
+  background-color: lightgray;
+  padding: 20px;
+}
