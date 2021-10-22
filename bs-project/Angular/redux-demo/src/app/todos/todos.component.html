@@ -1,8 +1,0 @@
-
-  <h1>Todo List</h1>
-  <input [(ngModel)]="todoTitle" type="text"/><span><button (click)="todoAddOperation()">ADD</button></span>
-  <ul *ngIf="todos$">
-    <li *ngFor="let i of todos$ | async">
-      {{i.title}} <span><button (click)="todoDeleteOperation(i)">Remove</button></span>
-    </li>
-  </ul>
